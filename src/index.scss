@@ -1,0 +1,98 @@
+$red: #e85449;
+$orange: #FEA622;
+$green: #8BC34A;
+$family: 'Roboto', sans-serif;
+$kanit: 'Kanit', sans-serif;
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,700,800,900&display=swap');
+
+@import './components/TopSection/TopSection.scss';
+@import './components/MidSection/MidSection.scss';
+@import './components/BottomSection/BottomSection.scss';
+@import './pages/Page.scss';
+
+body {
+  font-family: $family;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: $kanit;
+  letter-spacing: -.025em;
+}
+p {
+  margin: 0;
+}
+.container {
+  padding: 0;
+  @media (max-width: 764px) {
+    padding: 0 15px;
+  }
+}
+.App {
+  position: relative;
+  .privacy-policy {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba( 51, 51, 51, 0.95);
+    z-index: 100;
+    transition: all .5s ease;
+    .privacy-inner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 20px;
+      span, a {
+        color: #ffffff;
+        font-size: 16px;
+      }
+      a {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+      .buttons {
+        margin-left: 3em;
+        min-width: 160px;
+        text-align: center;
+        @media (max-width: 500px) {
+          margin-left: 0;
+          margin-top: 15px;
+          display: block;
+        }
+      }
+      .btn-ok {
+        display: block;
+        background: #dfc65b;
+        color: #fff;
+        border: none;
+        border-radius: 2px;
+        padding: .125rem 2rem;
+        transition: all .3s;
+        cursor: pointer;
+        font-size: 27px;
+        width: 100%;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        outline: none;
+        &:hover {
+          background: #dbbf46;
+        }
+      }
+      @media (max-width: 500px) {
+        display: block;
+      }
+    }
+  }
+}

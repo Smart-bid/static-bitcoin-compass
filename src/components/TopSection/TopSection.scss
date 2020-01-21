@@ -1,0 +1,218 @@
+@import './Header/Header';
+@import './Regform/Regform';
+
+.TopSection {
+    width: 100%;
+    background: url("./hero-bg-ambient.jpg") no-repeat center top / cover;
+    background-size: cover;
+    color: #fff;
+    .advertioral {
+        text-align: center;
+        p {
+            font-size: 13px;
+            margin: 0;
+        }
+    }
+    .logo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 15px;
+        img {
+            height: 60px;
+            width: auto;
+        }
+        @media (max-width: 764px) {
+            justify-content: center;
+        }
+    }
+    .headline {
+        text-align: center;
+        margin-top: 15px;
+
+        h1 {
+            font-size: 60px;
+            font-weight: 400;
+            color: $orange;
+            padding: 0;
+            margin: 0;
+            @media (max-width: 991px) {
+                font-size: 45px;
+            }
+            @media (max-width: 764px) {
+                font-size: 34px;
+            }
+            @media (max-width: 420px) {
+                font-size: 25px;
+            }
+        }
+        h2 {
+            font-size: 38px;
+            font-weight: 400;
+            padding: 0;
+            color: #fff;
+            @media (max-width: 991px) {
+                font-size: 31px;
+            }
+            @media (max-width: 764px) {
+                font-size: 21px;
+            }
+        }
+    }
+
+    .hidden-block {
+        display: flex;
+        justify-content: flex-end;
+
+        img {
+            height: 40px;
+            border: 1px solid #ffffff;
+        }
+
+        @media (max-width: 764px) {
+            display: none;
+        }
+    }
+
+    #modal-window {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 242px;
+        height: 60px;
+        margin-top: 10px;
+        padding: 0 15px 0 10px;
+        background: #fffaec;
+        border: 1px solid #404040;
+        border-radius: 3px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+        opacity: 1;
+        -webkit-animation: scale-up-center 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+        animation: scale-up-center 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+        transition: .3s ease;
+        .name {
+            p {
+                font-size: 14px;
+                color: #333;
+            }
+        }
+        .status {
+            p {
+                background: url("./check.png") no-repeat center left / 16px;
+                font-size: 17px;
+                font-weight: 700;
+                line-height: 24px;
+                color: #969696;
+                letter-spacing: -.035em;
+                text-transform: uppercase;
+                padding-left: 17px;
+            }
+        }
+    }
+
+    #modal-window.true {
+        opacity: 0;
+    }
+
+    .top-reg {
+        margin-top: 40px;
+        padding-bottom: 30px;
+
+        .video-player {
+            padding-right: 0;
+            @media (max-width: 575px) {
+                padding-right: 15px;
+            }
+        }
+
+        .VideoPlayer {
+            border: 3px solid #fff;
+            height: 100%;
+            position: relative;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+            background: black;
+            width: 100%;
+            max-width: 725px;
+            .videoOverlayInner {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                z-index: 10;
+                background: rgba(0, 0, 0, 0.6);
+                transition: 250ms opacity ease;
+                cursor: pointer;
+                visibility: visible;
+
+                p {
+                    font-size: 18px;
+                    line-height: 1.2;
+                    font-weight: bold;
+                    color: white;
+                    margin-bottom: 15px;
+                }
+
+                img {
+                    width: 90px;
+                    margin: 0 auto;
+                }
+            }
+
+            .videoOverlayInner.false {
+                visibility: hidden;
+                z-index: 0;
+            }
+
+        }
+    }
+
+    & .badges {
+        width: 17%;
+        margin: 0 auto 2vw auto;
+        filter: grayscale(100%);
+
+        @media (max-width: 768px) {
+            width: 80%;
+            margin: 4vw auto 8vw auto;
+        }
+    }
+}
+
+.modalscreen {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #00000080;
+    z-index: 20;
+    vertical-align: middle;
+
+    & .close {
+        width: 1.2vw;
+        height: 1.2vw;
+        float: right;
+        display: block;
+        background: #d65000;
+        border-radius: 50%;
+        font-size: 0.96vw;
+        cursor: pointer;
+        margin-left: auto;
+        filter: brightness(50%);
+
+        @media (max-width: 768px) {
+            width: 6.2vw;
+            height: 6.2vw;
+            font-size: 8vw;
+            line-height: 0.77;
+        }
+
+        &:hover {
+            filter: brightness(100%);
+        }
+    }
+}

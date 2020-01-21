@@ -1,0 +1,145 @@
+.card {
+    padding:20px 25px 10px 25px;
+    border-radius: 0 !important;
+    border: none;
+    .MuiFormControlLabel-root {
+        margin-left: 0 !important;
+    }
+}
+.card-body {
+    position: relative;
+    font-size: 14px;
+    background: #fff;
+    width: 100%;
+    padding: 0;
+}
+.form {
+    padding-left: 0;
+    @media (max-width: 991px) {
+        padding-left: 15px;
+        padding-right: 0;
+    }
+    @media (max-width: 575px) {
+        padding-right: 15px;
+    }
+}
+
+.regform {
+    position: relative;
+    max-width: 360px;
+    background: #ffffff;
+    box-shadow: inset 0 0 0 3px #dfc65b;
+    .reg-title {
+        border-radius: 3px 3px 0 0;
+        padding: 15px 20px;
+        text-align: center;
+        color: #ffffff;
+        background: $green;
+        h3 {
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 1.2;
+            margin-bottom: 0;
+        }
+        @media (max-width: 1200px) {
+            font-size: 28px;
+            line-height: 30px;
+        }
+    }
+}
+.cardb {
+    .MuiInputBase-input {
+        position: relative;
+        margin: 0;
+        width: 100%;
+        padding: .5em .75em;
+        height: 100%;
+        background-color: #fff;
+        color: #333;
+        border: none;
+        border-radius: .15rem;
+        font-size: 1em;
+        line-height: 1;
+        transition: 100ms border-color linear,100ms background-color linear;
+        box-sizing: border-box;
+    }
+    .MuiOutlinedInput-root {
+        border-radius: 0;
+        outline: 0;
+        &.Mui-focused {
+            .MuiOutlinedInput-notchedOutline {
+                border-color: rgba(82, 188, 230, 0.5) !important;
+            }
+        }
+    }
+    .MuiFormControl-root, .MuiInputBase-root {
+        height: 35px;
+        margin-bottom: 1em;
+    }
+    .MuiInputBase-root {
+        font-size: 12px;
+    }
+    .MuiFormLabel-root {
+        font-size: 12px;
+    }
+    .MuiFormLabel-root.Mui-focused {
+        background: #ffffff!important;
+        color: rgba(0, 0, 0, .75);
+        padding: 0 5px;
+    }
+    .MuiInputLabel-outlined {
+        transform: translate(14px, 12px) scale(1);
+        background: transparent!important;
+    }
+    .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+        background-color: rgba(82,188,230,.05);
+        border: 1px solid rgba(82,188,230,.5);
+    }
+    .left, .right {
+        width: calc(50% - .375em);
+    }
+    .left {
+        margin-right: .375em;
+    }
+    .right {
+        margin-left: .375em;
+    }
+    .large {
+        width: 100%;
+    }
+    .checkbox_text {
+        color: #666!important;
+        font-size: .75em;
+        line-height: 1.25;
+    }
+    .PrivateSwitchBase-root-152 {
+        padding: 0 10px 0 0;
+    }
+    .btn-secondary {
+        width: 100%;
+        font-size: 1.5em;
+        color: #ffffff;
+        background: #52bce6;
+        padding: 0.70em 1.25em;
+        border: 1px solid #25abe0;
+        border-radius: .15rem;
+        cursor: pointer;
+        box-shadow: 0 2px 4px rgba(0,0,0,.15);
+        opacity: 1;
+        transition: all .1s linear;
+        &:hover {
+            opacity: .9;
+        }
+    }
+    .support_text {
+        color: #333;
+        text-align: center;
+        line-height: 1.25;
+        font-size: .65em;
+    }
+}
+
+//Agree checkboxes
+.Component-root-145 {
+    color: #ccc !important;
+}

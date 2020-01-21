@@ -1,0 +1,25 @@
+.Header {
+    background: $red;
+    margin-bottom: 5px;
+    .title {
+        p {
+            font-size: 14px;
+            color: #ffffff;
+            text-align: center;
+            line-height: 30px;
+            span {
+                &:before {
+                    content: '';
+                    display: inline-block;
+                    vertical-align: middle;
+                    width: 14px;
+                    height: 14px;
+                    margin-right: 5px;
+                    background-image: url("./triangle.png");
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+    }
+}
