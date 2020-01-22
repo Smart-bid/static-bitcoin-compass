@@ -1,75 +1,103 @@
 .Trend {
-    background: #000000;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    h2 {
+        &.trade-title {
+            font-size: 42px;
+            font-weight: 400;
+            color: $green;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+    }
+    .steps-wrapper {
+        padding-bottom: 25px;
+        .row {
+            .step-item {
+                .wrap {
+                    height: 100%;
+                    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+                    h4 {
+                        font-size: 28px;
+                        font-weight: 400;
+                        color: #fff;
+                        background-color: $orange;
+                        padding: 8px 18px;
+                        border-radius: 3px 3px 0 0;
+                    }
+                    .inner-info {
+                        padding: 0 20px 20px 20px;
+                        strong {
+                            font-family: $kanit;
+                            font-size: 25px;
+                            color: #969696;
+                            font-weight: 400;
+                        }
+                        p {
+                            font-size: 18px;
+                            line-height: 1.4;
+                            color: #333;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 
-    .trend-block {
-        background: rgba(34,33,27,0.75);
-        padding: 45px 0;
-    }
-    .trade-title {
-        color: #ffffff;
-        font-size: 55px;
-        margin-bottom: 15px;
-        font-weight: 500;
-        text-align: center;
-        line-height: 1.1;
-        @media (max-width: 764px) {
-            font-size: 40px;
-        }
-    }
-    .trade-description {
-        color: #dfc65b;
-        text-align: center;
-        margin-bottom: 60px;
-        font-weight: 500;
-        font-size: 28px;
-        letter-spacing: -.025em;
-        line-height: 1.1;
-        @media (max-width: 764px) {
-            font-size: 21px;
-        }
-    }
     .picture-block {
-        background: #ffffff;
-        border-radius: 3px;
-        padding: 30px 15px 30px;
-        margin: 0 auto 45px;
         position: relative;
-        .picture-date {
+        background-image: linear-gradient(0deg, rgba(236,236,236,0.5) 2.38%, rgba(255,255,255,0) 2.38%, rgba(255,255,255,0) 50%, rgba(236,236,236,0.5) 50%, rgba(236,236,236,0.5) 52.38%, rgba(255,255,255,0) 52.38%, rgba(255,255,255,0) 100%);
+        background-size: 1px 60px;
+        padding: 15px 15px 30px;
+        border: 1px solid #ececec;
+        filter: drop-shadow(0 5px 5px rgba(0,0,0,0.15));
+        .arrow-indicator {
+            width: 20px;
+            height: 50px;
             position: absolute;
-            bottom: 15px;
-            left: 15px;
-            right: 15px;
-            .year {
-                position: absolute;
-                bottom: 0;
-                font-weight: 700;
-                font-size: 14px;
-                color: #dfc65b;
+            bottom: 55%;
+            right: 10%;
+            animation-name: indicator-blink;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            @keyframes indicator-blink {
+                0% {opacity: 0;}
+                50% {opacity: 0; transform: translateY(0);}
+                60% {opacity: 1; transform: translateY(-10px);}
+                65% {opacity: 1; transform: translateY(0);}
+                70% {opacity: 1; transform: translateY(-10px);}
+                75% {opacity: 1; transform: translateY(0);}
+                80% {opacity: 1; transform: translateY(-10px);}
+                100% {opacity: 1; transform: translateY(-10px);}
             }
-            .start {
-                left: 0;
-            }
-            .end {
-                right: 0;
+            &:before {
+                content: '';
+                display: block;
+                width: 4px;
+                height: 35px;
+                background-color: $green;
+                margin-left: auto;
+                margin-right: auto;
             }
             &:after {
                 content: '';
-                display: block;
                 position: absolute;
-                width: calc(100% - 80px);
-                left: 40px;
-                bottom: 10px;
-                height: 1px;
-                background: #e6e6e6;
+                top: 0;
+                width: 20px;
+                height: 20px;
+                border-style: solid;
+                border-width: 4px 4px 0 0;
+                border-color: #8BC34A;
+                transform: rotate(-45deg);
             }
         }
         svg {
-            max-height: 250px;
+            max-height: 120px;
             width: 100%;
         }
     }
     #clip-path {
-        transform: translate(0 -3.5);
         rect {
             animation-name: clip-move;
             animation-duration: 5s;
@@ -85,18 +113,32 @@
     .cls-4 {
         fill: none;
     }
-
     .cls-2 {
         clip-path: url(#clip-path);
     }
-
     .cls-3 {
-        fill: #ece5c7;
+        fill: #daeeba;
+        stroke: #daeeba;
+        stroke-linejoin: round;
+        stroke-width: 0;
+        animation-name: fade-in;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+
+        @keyframes fade-in {
+            0% {opacity: 0;}
+            50% {opacity: 0;}
+            60% {opacity: 1;}
+            100% {opacity: 1;}
+        }
+    }
+    .cls-3,
+    .cls-4 {
+        stroke-linecap: round;
     }
 
     .cls-4 {
-        stroke: #d3c06c;
-        stroke-linecap: round;
+        stroke: #3AAA35;
         stroke-miterlimit: 10;
         stroke-width: 1px;
     }

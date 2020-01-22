@@ -42,37 +42,25 @@
     "btc_media": "Bitcoin in Media:",
     "join_description": "Bitcoin has created a new era for financial technology and has given people the opportunity to trade quickly and easily. As a result, a lot of people have made real profits. Now, you can get started trading today.",
 
-    "invest_main_title": "Invest in gold with Golden Profit",
-    "invest_descriptions": [
+
+    "trade_title": "Join Bitcoin Compass Today and Become a Millionaire Tomorrow!",
+    "trade_steps": [
       {
-        "step": "Step",
-        "name": "Register",
-        "text": [
-          "It only takes a few minutes to register your account with Golden Profit's streamlined sign-up system. Simply fill in your details and we’ll do the rest.",
-          ""
-        ]
+        "title": "Step ",
+        "name": "Register Today",
+        "descr": "Registration only takes a few minutes and once you've completed it you will become a member of Bitcoin Compass and be able to join our millionaires."
       },
       {
-        "step": "Step",
-        "name": "Invest",
-        "text": [
-          "You will be contacted by one of our personal brokers who will tell you exactly what you need to do to make your first investment.",
-          "The minimum amount required to deposit is $250."
-        ]
+        "title": "Step ",
+        "name": "Add Funds to Your Account",
+        "descr": "Make your first investment of at least $250 and then see how much you can make. You’ll then be free to make as many trades as you want. There are even free guides to help you."
       },
       {
-        "step": "Step",
-        "name": "Trade",
-        "text": [
-          "Once you have activated your account by depositing your funds, you’ll be able to start investing in your future.",
-          ""
-        ]
+        "title": "Step ",
+        "name": "Begin Trading",
+        "descr": "It's as simple as that. Our platform will allow you to get started quickly and easily and discover the benefits of trading cryptocurrencies."
       }
     ],
-    "blue_btn": "Register here",
-    "trade_title": "The trend is speaking for itself",
-    "trade_description": "As more and more investors begin to re-establish an interest in gold, prices have begun to sky-rocket. That's because gold offers more security than any other commodity and in a world of growing financial upheaval, security is hard to find. Look at the chart below to see just how much the price of gold has risen in the last 12 months.",
-    "famous_title": "Famous names in trading",
     "famous_description": "There are a lot of big names in trading. Here is what some of the most famous traders have to say.",
     "famous_body": [
       {
