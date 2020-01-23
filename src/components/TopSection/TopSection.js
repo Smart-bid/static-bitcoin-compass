@@ -68,6 +68,7 @@ export default class TopSection extends Component {
                             name: 'agree_1',
                             type: 'checkbox',
                             text: languageManager.agreement_first,
+                            //errorClass: 'inputError',
                             links: [{text: 'Privacy Policy', to: '/'}],
                             groupClass: 'checkbox_text'
                         },
@@ -75,6 +76,7 @@ export default class TopSection extends Component {
                             name: 'agree_2',
                             type: 'checkbox',
                             text: languageManager.agreement_second,
+                            //errorClass: 'inputError',
                             links: [{text: 'Terms & Conditions', to: '/terms'}, {
                                 text: 'Privacy Policy',
                                 to: '/privacy'

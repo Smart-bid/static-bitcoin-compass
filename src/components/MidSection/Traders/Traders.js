@@ -28,7 +28,7 @@ export default class Traders extends Component {
                 }, () => {
                     tableElementsArray.pop();
                 })
-            },5000)
+            },2000)
         });
     }
 

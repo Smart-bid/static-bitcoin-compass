@@ -132,14 +132,67 @@
         }
     }
     .support_text {
-        color: #333;
-        text-align: center;
-        line-height: 1.25;
+        max-width: 160px;
         font-size: .65em;
+        line-height: 1.25;
+        color: #333;
+        margin-top: 8px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        >.lock-icon {
+            &:before {
+                content: '';
+                display: inline-block;
+                vertical-align: middle;
+                width: 14px;
+                height: 14px;
+                background-image: url("./lock.svg");
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        }
     }
 }
 
 //Agree checkboxes
 .Component-root-145 {
     color: #ccc !important;
+}
+
+//Hide text Errors
+.inputError {
+    display: none !important;
+}
+
+//Dropdown password window
+.popper {
+    min-width: 310px !important;
+    //left: -71px !important;
+    top: 10px !important;
+}
+.MuiList-root {
+    padding: 8px !important;
+    border: 1px solid rgb(240, 72, 42) !important;
+    &.req_list {
+        .MuiListItem-root {
+            font-size: 12px !important;
+            padding: 0;
+            .MuiListItemIcon-root {
+                min-width: initial !important;
+                svg {
+                    width: 17px;
+                    height: 15px;
+                }
+            }
+        }
+    }
+}
+
+//Res Error (Last step => "System could not register you")
+.resError {
+    &.card-title {
+        color: #333;
+        text-align: center;
+    }
 }

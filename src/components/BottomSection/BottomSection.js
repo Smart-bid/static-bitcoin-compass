@@ -18,7 +18,7 @@ export default class BottomSection extends Component {
                                     <a onClick={() => this.props.pageHandler('privacy')}>Privacy Policy</a>
                                     <a onClick={() => this.props.pageHandler('terms')}>Terms</a>
                                     <a onClick={() => this.props.pageHandler('spam')}>Report Ad / Spam</a>
-                                    <span className="copyright">© 2019</span>
+                                    <span className="copyright">© {new Date().getFullYear()}</span>
                                 </div>
                             </div>
                             <div className="col-12">

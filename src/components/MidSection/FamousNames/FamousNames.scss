@@ -1,73 +1,114 @@
-.FamousNames {
-  padding: 75px 0;
-  .famous-title {
-    color: #333333;
-    font-size: 55px;
-    text-align: center;
-    font-weight: 500;
-    margin-bottom: 15px;
-    @media (max-width: 764px) {
-      font-size: 40px;
+.green-section {
+    padding-top: 75px;
+    padding-bottom: 250px;
+    background: url("../../TopSection/hero-bg-ambient.jpg") no-repeat center top / cover;
+    background-size: cover;
+    .famousNames {
+        .famous-title {
+            font-size: 56px;
+            font-weight: 400;
+            margin-bottom: 15px;
+            color: #fff;
+            text-align: center;
+            @media (max-width: 764px) {
+                font-size: 40px;
+            }
+        }
+        .famous-description {
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 1.1;
+            margin-bottom: 50px;
+            color: $orange;
+            text-align: center;
+            @media (max-width: 764px) {
+                font-size: 22px;
+            }
+        }
+        .row {
+            .famous-people {
+                display: flex;
+                align-items: flex-start;
+                &:nth-child(2),
+                &:nth-child(3) {
+                    padding-bottom: 30px;
+                    margin-bottom: 30px;
+                    border-bottom: 1px solid rgba(255,255,255,0.25);
+                }
+                .img {
+                    margin-right: 15px;
+                    img {
+                        max-width: 160px;
+                        border-radius: 100%;
+                        border: 4px solid #fff;
+                        overflow: hidden;
+                    }
+                }
+                .single-person-info {
+                    padding-top: 10px;
+                    .name {
+                        font-size: 24px;
+                        font-weight: 400;
+                        margin-bottom: 15px;
+                        color: $orange;
+                        border-radius: 6px;
+                    }
+                    p {
+                        font-size: 17px;
+                        margin-bottom: 0;
+                        font-style: italic;
+                        color: #fff;
+                        line-height: 1.3;
+                    }
+                }
+
+            }
+        }
+
     }
-  }
-  .famous-description {
-    font-family: "IBM Plex Sans",sans-serif;
-    font-weight: 700;
-    margin-bottom: 60px;
-    text-align: center;
-    color: #dfc65b;
-    font-size: 28px;
-    line-height: 1.1;
-    @media (max-width: 764px) {
-      font-size: 22px;
+
+    //Benefits
+    .Benefits {
+        margin-top: 75px;
+        .container {
+            .benefits-list {
+                display: flex;
+                .benefit-item {
+                    width: 31%;
+                    margin-left: 1%;
+                    margin-right: 1%;
+                    .image {
+                        background-color: #fff;
+                        border-radius: 3px 3px 0 0;
+                        img {
+                            max-width: 240px;
+                            display: block;
+                            margin: 0 auto;
+                        }
+                    }
+                    .description {
+                        h3 {
+                            font-size: 28px;
+                            font-weight: 700;
+                            line-height: 1.1;
+                            color: #fff;
+                            margin: 0;
+                            padding: 15px 20px 15px;
+                            background-color: $orange;
+                            text-align: center;
+                            letter-spacing: inherit;
+                        }
+                        p {
+                            font-size: 18px;
+                            font-weight: 400;
+                            padding: 15px 20px;
+                            background-color: rgba(139,195,74,0.75);
+                            color: #fff;
+                            border-radius: 0 0 3px 3px;
+                        }
+                    }
+                }
+            }
+        }
     }
-  }
-  .famous-people {
-    position: relative;
-    padding-left: 120px;
-    padding-top: 50px;
-    h3, p {
-      position: relative;
-      z-index: 4;
-    }
-    h3 {
-      padding: 15px 20px;
-      margin-bottom: 25px;
-      background: #ffffff;
-      color: #dfc65b;
-      border-radius: 6px;
-      font-weight: 700;
-      font-size: 24px;
-    }
-    p {
-      padding-left: 63px;
-      font-size: 18px;
-      margin-bottom: 0;
-      font-style: italic;
-      color: #333333;
-      line-height: 1.3;
-    }
-    img {
-      position: absolute;
-      width: 160px;
-      height: 160px;
-      top: 0;
-      left: -5px;
-      border-radius: 80px;
-      z-index: 2;
-      overflow: hidden;
-    }
-    &:nth-child(2), &:nth-child(3) {
-      border-bottom: 1px solid #e6e6e6;
-      padding-bottom: 30px;
-      margin-bottom: 30px;
-    }
-    @media (max-width: 764px) {
-      &:nth-child(2), &:nth-child(3), &:nth-child(4) {
-        border-bottom: 1px solid #e6e6e6;
-        padding-bottom: 30px;
-        margin-bottom: 30px;
-      }
-    }
-  }
 }

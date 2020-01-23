@@ -76,11 +76,11 @@ export default class App extends Component {
 
                         <MidSection {...this.props}/>
 
-                        {/*<BottomSection*/}
-                        {/*    languageManager={this.props.languageManager}*/}
-                        {/*    pageHandler={this.pageHandler}*/}
-                        {/*    handleForward={this.handleForward}*/}
-                        {/*/>*/}
+                        <BottomSection
+                            languageManager={this.props.languageManager}
+                            pageHandler={this.pageHandler}
+                            handleForward={this.handleForward}
+                        />
                         <div className="privacy-policy" style={(document.cookie.indexOf('privacy') !== -1) ? display : {}}>
                             <div className="privacy-inner">
                                 <span>{languageManager.bottom_info[0]}<a onClick={() => this.pageHandler('privacy')}>{languageManager.bottom_info[1]}</a></span>

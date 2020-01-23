@@ -89,7 +89,7 @@ export default function MaterialInputs(props) {
                                         onFocus={() => {if (props.errors[input.name]) props.onFocus(input.name); showFeedback(true)}}
                                         onBlur={() => showFeedback(false)}
                                     />
-                                    <FormHelperText className={input.errorClassName} style={{color: ((props.errors.hasOwnProperty(input.name) && props.errors[input.name].hasOwnProperty('messages')) ? '#f0482a' : ''), fontWeight: 700}} id="feebback">{((props.errors.hasOwnProperty(input.name) && props.errors[input.name].hasOwnProperty('messages')) && props.errors[input.name].messages[0])}</FormHelperText>
+                                    <FormHelperText className={input.errorClass} style={{color: ((props.errors.hasOwnProperty(input.name) && props.errors[input.name].hasOwnProperty('messages')) ? '#f0482a' : ''), fontWeight: 700}} id="feebback">{((props.errors.hasOwnProperty(input.name) && props.errors[input.name].hasOwnProperty('messages')) && props.errors[input.name].messages[0])}</FormHelperText>
 
                                 </FormControl>
                             )
@@ -108,7 +108,7 @@ export default function MaterialInputs(props) {
                                         onChange={(value) => {value = value.replace(/\D/g,''); updateValue(value, 'phone_number')}}
                                         error={props.errors.hasOwnProperty(input.name) && props.errors[input.name].hasOwnProperty('messages')} 
                                     />
-                                    <FormHelperText className={input.errorClassName} style={{color: ((props.errors.hasOwnProperty(input.name) && props.errors[input.name].hasOwnProperty('messages')) ? '#f0482a' : ''), fontWeight: 700}} id="feebback">{((props.errors.hasOwnProperty(input.name) && props.errors[input.name].hasOwnProperty('messages')) && props.errors[input.name].messages[0])}</FormHelperText>
+                                    <FormHelperText className={input.errorClass} style={{color: ((props.errors.hasOwnProperty(input.name) && props.errors[input.name].hasOwnProperty('messages')) ? '#f0482a' : ''), fontWeight: 700}} id="feebback">{((props.errors.hasOwnProperty(input.name) && props.errors[input.name].hasOwnProperty('messages')) && props.errors[input.name].messages[0])}</FormHelperText>
 
                                 </FormControl>
                             )
@@ -144,7 +144,8 @@ export default function MaterialInputs(props) {
                                                     </InputAdornment>
                                                 }
                                             />
-                                    <Popper 
+                                    <Popper
+                                        className="popper"
                                         open={reqOpen}
                                         anchorEl={reqlist ? reqlist.parentElement.parentElement : null}
                                         style={{zIndex: 10}}
@@ -153,7 +154,7 @@ export default function MaterialInputs(props) {
                                         >
                                         {({ TransitionProps }) => (   
                                             <Fade {...TransitionProps} timeout={350}>
-                                                <List className={input.listClass} style={{backgroundColor: '#fff', width: '100%', right: '0', border: '2px solid', borderColor: (props.errors.hasOwnProperty('password') ? '#f0482a' : '#8cd32f')}}>
+                                                <List className={input.listClass} style={{backgroundColor: '#fff', width: '100%', right: '0', border: '1px solid', borderColor: (props.errors.hasOwnProperty('password') ? '#f0482a' : '#8cd32f')}}>
                                                     {Object.keys(passtest).map(key =>
                                                         (props.errors.hasOwnProperty('password') && (props.errors.password[key] || props.errors.password.empty))
                                                         ? 
@@ -204,7 +205,7 @@ export default function MaterialInputs(props) {
                                             text={input.text}
                                             links={input.links}/>
 
-                                        <FormHelperText className={input.errorClassName} style={{color: ((props.errors.hasOwnProperty(input.name) && props.errors[input.name].hasOwnProperty('messages')) ? '#f0482a' : ''), fontWeight: 700}} id="feebback">{((props.errors.hasOwnProperty(input.name) && props.errors[input.name].hasOwnProperty('messages')) && props.errors[input.name].messages[0])}</FormHelperText>
+                                        <FormHelperText className={input.errorClass} style={{color: ((props.errors.hasOwnProperty(input.name) && props.errors[input.name].hasOwnProperty('messages')) ? '#f0482a' : ''), fontWeight: 700}} id="feebback">{((props.errors.hasOwnProperty(input.name) && props.errors[input.name].hasOwnProperty('messages')) && props.errors[input.name].messages[0])}</FormHelperText>
                                     </div>
 
                                 </FormGroup>

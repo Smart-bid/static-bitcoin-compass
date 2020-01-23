@@ -2,8 +2,8 @@
   "en": {
     "header_title": "– Advertorial –",
     "header_subtitle": "We are getting an unprecedented number of new users.",
-    "title": "Discover your Personal Gold Mine",
-    "subtitle": "Join thousands of people investing in the gold market!",
+    "title": "People are Getting Rich From Bitcoin",
+    "subtitle": "You could be the next millionaire!",
     "customers_name": [
       "Amelia",
       "Elsie",
@@ -61,6 +61,9 @@
         "descr": "It's as simple as that. Our platform will allow you to get started quickly and easily and discover the benefits of trading cryptocurrencies."
       }
     ],
+    "chart_info": "Forbes named bitcoin the best investment of 2013. In 2014, Bloomberg named bitcoin one of its worst investments of the year but in 2015, bitcoin topped Bloomberg's currency tables and the value of Bitcoin is still growing.",
+
+    "famous_title": "Famous names in trading",
     "famous_description": "There are a lot of big names in trading. Here is what some of the most famous traders have to say.",
     "famous_body": [
       {
@@ -84,25 +87,25 @@
         "text": "You don't need to be a rocket scientist. Investing is not a game where the guy with the 160 IQ beats the guy with 130 IQ."
       }
     ],
-    "benefits_title": "Online Trading Benefits",
-    "benefits_subtitle": "It's the best way how to invest your money",
-    "benefits_information": [
+
+    "benefits_list": [
       {
-        "img": "accurate",
-        "title": "Accurate Trading",
-        "description": "Use Golden PROFIT’s live up-to-the-minute trading updates to make the right decisions, each and every time you trade."
+        "img": "performance",
+        "title": "Precision Performance",
+        "descr": "No other trading platform performs more accurately than Bitcoin Compass. That's why our customers are able to multiply their profits with speed and ease."
       },
       {
-        "img": "cutting",
-        "title": "Cutting Edge Technology",
-        "description": "Golden PROFIT uses the latest trading engine to keep all of your trades running smoothly and effectively and to ensure that you have the best protection available."
+        "img": "technology",
+        "title": "Top Technology",
+        "descr": "Our platform uses the latest in cutting-edge technology to run the show so you don't have to. Our platform delivers seriously high-performance that is unbelievably easy to use."
       },
       {
         "img": "trading",
-        "title": "Trading you can Trust",
-        "description": "Golden PROFIT are world leaders online trading and have been recognised globally for their intuitive design and user-friendly platform."
+        "title": "Trusted Trading",
+        "descr": "Bitcoin Compass has received many top trusted trading awards including The European Traders Guild Award and The Worlds Traders Conference Cup."
       }
     ],
+
     "table_title": "Online traders",
     "table_head": [
       "User",
@@ -159,6 +162,7 @@
         "img": "register"
       }
     ],
+
     "faq_title": "FAQ",
     "faq_question": [
       {
@@ -182,11 +186,12 @@
         "answer": "You can trade all public companies from all the major stock exchanges in the world. If you’ve heard of it, you can trade on it!"
       }
     ],
+
     "second_form": "Begin your new life Now",
     "disclaimer": [
       "IMPORTANT: ",
       "Earnings and Legal Disclaimers",
-      "Earnings and income representations made by Golden Profit, (collectively “This Website” only used as aspirational examples of your earnings potential. The success of those in the testimonials and other examples are exceptional results and therefore are not intended as a guarantee that you or others will achieve the same results. Individual results will vary and are entirely dependent on your use of Golden Profit.",
+      "Earnings and income representations made by , (collectively “This Website” only used as aspirational examples of your earnings potential. The success of those in the testimonials and other examples are exceptional results and therefore are not intended as a guarantee that you or others will achieve the same results. Individual results will vary and are entirely dependent on your use of .",
       "This Website is not responsible for your actions. You bear sole responsibility for your actions and decisions when using products and services and therefore you should always exercise caution and due diligence. You agree that this Website is not liable to you in any way for the results of using our products and services. See our Terms & Conditions for our full disclaimer of liability and other restrictions.",
       "This Website may receive compensation for products and services they recommend to you. If you do not want This Website to be compensated for a recommendation, then we advise that you search online for a similar product through a non-affiliate link.",
       "*Testimonials:",

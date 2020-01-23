@@ -5,14 +5,11 @@ import JoinBtcRevolution from './JoinBtcRevolution/JoinBtcRevolution'
 
 import Trend from "./Trend/Trend";
 
-import joinBg from './images/hero-btc.jpg'
 import FamousNames from "./FamousNames/FamousNames";
-import Benefits from "./Benefits/Benefits";
 import Traders from "./Traders/Traders";
 import Faq from "./Faq/Faq";
 import logo from "../TopSection/logo.svg";
 import Regform from "../TopSection/Regform/Regform";
-import {fade} from "@material-ui/core";
 
 
 export default class MidSection extends Component {
@@ -66,6 +63,7 @@ export default class MidSection extends Component {
                             name: 'agree_1',
                             type: 'checkbox',
                             text: languageManager.agreement_first,
+                            //errorClass: 'inputError',
                             links: [{text: 'Privacy Policy', to: '/'}],
                             groupClass: 'checkbox_text'
                         },
@@ -73,6 +71,7 @@ export default class MidSection extends Component {
                             name: 'agree_2',
                             type: 'checkbox',
                             text: languageManager.agreement_second,
+                            //errorClass: 'inputError',
                             links: [{text: 'Terms & Conditions', to: '/terms'}, {text: 'Privacy Policy', to: '/privacy'}],
                             groupClass: 'checkbox_text'
                         }
@@ -99,9 +98,11 @@ export default class MidSection extends Component {
                 <Trend languageManager={this.props.languageManager}/>
 
                 <FamousNames languageManager={this.props.languageManager}/>
-                <Benefits languageManager={this.props.languageManager}/>
+
                 <Traders languageManager={this.props.languageManager}/>
+
                 <Faq languageManager={this.props.languageManager}/>
+
                 <div className="second-form">
                     <div className="container">
                         <div className="row">

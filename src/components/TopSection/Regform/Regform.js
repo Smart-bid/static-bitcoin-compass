@@ -26,7 +26,11 @@ class Regform extends Component {
 
         this.state = {
             form: {},
-            errors: {},
+            errors: {
+                password: {
+                    empty: true
+                }
+            },
             step: 1
         }
 
@@ -193,7 +197,7 @@ class Regform extends Component {
                                             <div className={formStep.supportText.className}>
 
                                                 {(formStep.supportText.img) ? <img src={formStep.supportText.img}/> : <React.Fragment></React.Fragment> }
-                                                <span>{formStep.supportText.main}</span>
+                                                <span className="lock-icon">{formStep.supportText.main}</span>
                                                 {(formStep.supportText.tooltip)
                                                     ?
                                                 <span>

@@ -18,10 +18,8 @@ export default class Faq extends Component {
 
     handleClick = (e) => {
         const question = e.target.getAttribute('data-name');
-        const startTitle = ['true', 'true', 'true', 'true', 'true'];
-        const newStatus = startTitle.slice();
-        newStatus[question] = !this.state.title[question];
-        this.setState({title: newStatus});
+        this.state.title[question] = !this.state.title[question];
+        this.setState({title: this.state.title});
     };
 
     render () {
