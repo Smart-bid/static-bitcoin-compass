@@ -2,6 +2,7 @@
   "en": {
     "header_title": "– Advertorial –",
     "header_subtitle": "We are getting an unprecedented number of new users.",
+    "flag": "enFlag",
     "title": "People are Getting Rich From Bitcoin",
     "subtitle": "You could be the next millionaire!",
     "customers_name": [
@@ -18,10 +19,15 @@
     "last_name": "Last name",
     "email": "Email",
     "password": "Password",
+    "phone_number": "Phone",
     "pass2": "Confirm Password",
     "button": "Get Access Now",
     "agreement_first": "I agree to the processing of my email address for the purposes of receiving commercial offers that we believe will be of interest to you on behalf of the companies and industries explicitly detailed in our Privacy Policy",
-    "agreement_second": "By filling out and sending us the registration form you agree with the Terms & Conditions and the Privacy Policy",
+    "agreement_second": [
+      "By filling out and sending us the registration form you agree with the Terms & Conditions and the Privacy Policy",
+      "Terms & Conditions",
+      "Privacy Policy"
+    ],
     "button_last": "REGISTER NOW",
     "passtest": [
       "The password must be 8 characters long.",
@@ -34,6 +40,8 @@
       "Your data is always protected with us.\nYou can change your mind anytime by...\n"
     ],
     "more_decription": "You can change your mind at any time by clicking on the unsubscribe link in the footer of any email you receive from us. We will treat your information with respect. By clicking above, you agree that we may process your information in accordance with these terms.",
+
+    "video_placeholder": "Tap to watch and learn the secret!",
 
     "join_title": [
       "Join the Bitcoin,",
@@ -166,24 +174,24 @@
     "faq_title": "FAQ",
     "faq_question": [
       {
-        "question": "How much can I make?",
-        "answer": "Your profit depends on your decisions and input. Those who compound their interest into making more high-priced trades, stand to earn a lot more than those who place trades at lower levels. However, it completely depends on how you wish to trade."
+        "question": "How much can I earn?",
+        "answer": "Profits are always based on percentages of the amount you invest. Therefore, you should always eveluate each trade individually."
       },
       {
         "question": "Do I need any trading experience?",
-        "answer": "Golden PROFIT has been designed for every level of trader and can give you the skills and confidence you need to make high-level trades. The platform includes the information you need to begin trading, whether you’re a complete beginner or professional trader."
+        "answer": "No! Bitcoin Compass has been designed with novices in mind. Our platform is the easiest place in the world to start trading."
       },
       {
         "question": "How much does it cost?",
-        "answer": "Our platform is completely free to use. All you need is your starting capital of $250 which is yours to invest and trade."
+        "answer": "Our platform won't cost you anything. All of the money you invest is yours to trade with and you can withdraw it at any time."
       },
       {
         "question": "How many members are there?",
-        "answer": "We have over 250,000 members using our services worldwide."
+        "answer": "We currently have over 400,000 registered members worldwide with a collective value of over $5 billion!"
       },
       {
-        "question": "What companies can I use?",
-        "answer": "You can trade all public companies from all the major stock exchanges in the world. If you’ve heard of it, you can trade on it!"
+        "question": "What if the price of Bitcoin Falls?",
+        "answer": "It's still possible to make profitable trades. That's because you are able to trade long and short, allowing you to take full advantage of price moves."
       }
     ],
 
@@ -200,6 +208,638 @@
     "bottom_info": [
       "We use cookies to understand how you use our site and to improve your experience. This includes personalizing content and advertising. By continuing to use our site, you accept our use of cookies, revised Privacy Policy and Terms of Use. This website is an Advertorial. ",
       "More information"
+    ]
+  },
+  "no": {
+    "header_title": "– Redaksjonell annonse –",
+    "header_subtitle": "Vi mottar et utrolig antall med nye brukere.",
+    "flag": "noFlag",
+    "title": "Folk blir rike av Bitcoin",
+    "subtitle": "Du kan bli den neste millionæren!",
+    "customers_name": [
+      "Amelia",
+      "Elsie",
+      "Fred",
+      "Henry",
+      "Ivy",
+      "Evelin"
+    ],
+    "status": " ble med",
+    "title_form": "ENDRE LIVET DITT I DAG!",
+    "first_name": "Fornavn",
+    "last_name": "Etternavn",
+    "email": "Din e-mail",
+    "password": "Passord",
+    "phone_number": "Telefonnummer",
+    "pass2": "Confirm Password",
+    "button": "Kom i gang nå",
+    "agreement_first": "Jeg godtar at epostadressen min lagres slik at jeg kan motta informasjon og tilbud om programvare og plattformer for trading.",
+    "agreement_second": [
+      "Jeg godtar Vilkår og betingelser og Retningslinjer for personvern",
+      "Vilkår og betingelser",
+      "Retningslinjer for personvern"
+    ],
+    "button_last": "Kom i gang nå",
+    "passtest": [
+      "Passordet må bestå av 8 tegn.",
+      "Må ikke omfatte spesialtegn.",
+      "Må omfatte minst 1 bokstav.",
+      "Må omfatte minst 1 stor bokstav.",
+      "Må omfatte minst 1 tall."
+    ],
+    "more_title": [
+      "u kan når som helst endre dette ved å klikke på linken for å avslutte abonnementet..."
+    ],
+    "more_decription": "som du finner til slutt i alle eposter du mottar fra oss. Vi vil behandle personopplysningene dine med respekt. Ved å klikke ovenfor godtar du at vi kan behandle personopplysninger om deg i samsvar med disse betingelsene.",
+
+    "video_placeholder": "Trykk for å se og lære hemmeligheten!",
+
+    "join_title": [
+      "Bli med på Bitcoin",
+      "revolusjonen i dag"
+    ],
+    "btc_media": "Bitcoin i media:",
+    "join_description": "Bitcoin har skapt en ny epoke for økonomisk teknologi som har gitt folk muligheten til å handle på raskt og enkelt vis. Som resultat, kan mange mennesker tjene mye penger. Nå kan du begynne å handle i dag.",
+
+    "trade_title": "Bli en del av Bitcoin Compass i dag, og bli millionær i morgen!",
+    "trade_steps": [
+      {
+        "title": "Steg  ",
+        "name": "Registrer i dag",
+        "descr": "Registreringen tar kun noen få minutter, og når den er gjennomført vil du bli medlem av Bitcoin Compass og kunne bli en del av våre millionærer."
+      },
+      {
+        "title": "Steg  ",
+        "name": "Sett inn midler på kontoen din",
+        "descr": "Gjør din første investering av minst Kr. 2 500 ,- og se hvor mye penger du kan tjene. Du har frihet til å handle så mye du vil. Det er til og med gratis guider som kan hjelpe deg."
+      },
+      {
+        "title": "Steg  ",
+        "name": "Begynn å handle",
+        "descr": "Så enkelt er det. Vår plattform lar deg komme kjapt i gang på lett vis og da kan du oppdage fordelene til å handle kryptovalutaer."
+      }
+    ],
+    "chart_info": "Forbes utnevnte Bitcoin til den beste investeringen i 2013. I 2014 utnevnte Bloomberg bitcoin til en av sine verste investeringer for hele året, men i 2015 toppet bitcoin Bloombergs valutatabeller, og verdien av Bitcoin øker fortsatt.",
+
+    "famous_title": "Berømtheter innen trading",
+    "famous_description": "Det er mange store navn innen trading. Dette er hva noen av de mest berømte traderne sier.",
+    "famous_body": [
+      {
+        "img": "elder",
+        "name": "Alexander Elder",
+        "text": "Du kan være fri. Du kan bo og jobbe hvor som helst i verden. Du kan være uavhengig av rutiner og slippe å stå til ansvar ovenfor noen."
+      },
+      {
+        "img": "seykota",
+        "name": "Ed Seykota",
+        "text": "Vinn eller tap. Alle får ut av markedet det de ønsker. Noen ser ut til å like å tape, så de vinner ved å tape penger."
+      },
+      {
+        "img": "oneil",
+        "name": "William O’Neil",
+        "text": "Det som ser ut til å være for høyt og risikabelt for flertallet, går enda høyere. Og det som ser lavt og billig ut, vil generelt sett gå enda lavere."
+      },
+      {
+        "img": "buffet",
+        "name": "Warren Buffett",
+        "text": "Du trenger ikke å være en kjernefysiker. Investering er ikke et spill hvor han som har 160 i IQ slår han som har 130 i IQ."
+      }
+    ],
+
+    "benefits_list": [
+      {
+        "img": "performance",
+        "title": "Presisjonsytelser",
+        "descr": "Ingen annen handelsplattform har høyere presisjon enn Bitcoin Compass. Det er derfor våre kunder klarer å multiplisere inntjeningen sin både raskt og enkelt."
+      },
+      {
+        "img": "technology",
+        "title": "Toppteknologi",
+        "descr": "Vår plattform bruker det siste i grensesprengende teknologi for å styre showet, så du slipper. Vår plattform leverer seriøse ytelser og er utrolig enkel i bruk."
+      },
+      {
+        "img": "trading",
+        "title": "Handle med tillit",
+        "descr": "Bitcoin Compass har mottatt mange kjente handelspriser, inkludert The European Traders Guild Award og The Worlds Traders Conference Cup."
+      }
+    ],
+
+    "table_title": "Nettmeglere",
+    "table_head": [
+      "Bruker",
+      "Tidspunkt",
+      "Registrert"
+    ],
+    "table_inner": [
+      {
+        "name": "J******",
+        "img": "register"
+      },
+      {
+        "name": "K******",
+        "img": "register"
+      },
+      {
+        "name": "S******",
+        "img": "register"
+      },
+      {
+        "name": "M******",
+        "img": "register"
+      },
+      {
+        "name": "A******",
+        "img": "register"
+      },
+      {
+        "name": "L******",
+        "img": "register"
+      },
+      {
+        "name": "N******",
+        "img": "register"
+      },
+      {
+        "name": "B******",
+        "img": "register"
+      },
+      {
+        "name": "O******",
+        "img": "register"
+      },
+      {
+        "name": "P******",
+        "img": "register"
+      },
+      {
+        "name": "A******",
+        "img": "register"
+      },
+      {
+        "name": "G******",
+        "img": "register"
+      }
+    ],
+
+    "faq_title": "Ofte stilte spørsmål",
+    "faq_question": [
+      {
+        "question": "Hvor mye kan jeg tjene?",
+        "answer": "Overskudd blir alltid basert på en prosentdel av din investering. Derfor er det best å vuirdere hver handel individuelt."
+      },
+      {
+        "question": "Trenger jeg noen erfaring med valutahandel?",
+        "answer": "Nei! Bitcoin Compass er utviklet med nybegynnere i tankene. Vår plattform er det enkleste stedet man kan komme i gang med handel."
+      },
+      {
+        "question": "Hvor mye koster det?",
+        "answer": "Vår plattform koster deg ingenting. Du står fritt til å handle med alle pengene du investerer, og du kan ta dem ut igjen når som helst."
+      },
+      {
+        "question": "Hvor mange medlemmer er det?",
+        "answer": "Vi har for tiden over 400 000 registrerte medlemmer over hele verden, med en samlet verdi på mer enn 5 milliarder euro!"
+      },
+      {
+        "question": "Hva om prisen på Bitcoin faller?",
+        "answer": "Det er fremdeles mulig å gjøre handler som gir overskudd. Det er fordi du kan handle både langt og kort som lar deg benytte prisbevegelsene."
+      }
+    ],
+
+    "second_form": "Start ditt nye liv nå",
+    "disclaimer": [
+      "VIKTIG: ",
+      "Inntjening og juridiske forbehold",
+      "Inntjening og inntektseksempler gjort av , (heretter kalt “Dette nettstedet”) er kun ment som eksempler på inntektspotensialet ditt. Suksessen til talspersonene og andre eksempler er eksepsjonelle resultater, og derfor ikke ment som noen garanti om at du eller andre vil oppnå de samme resultatene. Individuelle resultater varierer, og er fullt ut avhengig av din bruk av .",
+      "Dette nettstedet er ikke ansvarlig for dine handlinger. Du innehar fullt ansvar for dine handlinger og avgjørelser når du bruker produkter og tjenester, og derfor bør du alltid utvise forsiktighet og gjøre nødvendige undersøkelser. Du samtykker til at Dette nettstedet ikke på noen måte er ansvarlig for resultatene fra bruk av våre produkter og tjenester. Se våre betingelser for en komplett ansvarsfraskrivelse og andre begrensninger.",
+      "Dette nettstedet kan motta kompensasjon for produkter og tjenester som anbefales til deg. Om du ikke ønsker at Dette nettstedet skal kompenseres for en anbefaling, ber vi deg om at du søker på internett etter liknende produkter via en ikke-samarbeidende lenke.",
+      "*Eksempler:",
+      "Alle karakterer, informasjon og hendelser som nevnes på Dette nettstedet er fiktive. All likhet til faktiske hendelser eller personer, levende eller døde, er tilfeldig."
+    ],
+    "bottom_info": [
+      "Vi bruker informasjonskapsler for å forstå hvordan du bruker nettstedet vårt og for å forbedre opplevelsen din. Dette inkluderer tilpassing av innhold og annonsering. Ved å fortsette å bruke nettstedet vårt, godtar du bruken av informasjonskapsler, revidert personvernpolicy og bruksvilkår. Dette nettstedet er en redaksjonell annonse.",
+      "Mer informasjon"
+    ]
+  },
+  "sv": {
+    "header_title": "– Textreklam  –",
+    "header_subtitle": "Vi får ett mycket stort antal nya medlemmar.",
+    "flag": "svFlag",
+    "title": "Folk blir rika tack vare Bitcoin",
+    "subtitle": "Du kan vara nästa miljonär!",
+    "customers_name": [
+      "Amelia",
+      "Elsie",
+      "Fred",
+      "Henry",
+      "Ivy",
+      "Evelin"
+    ],
+    "status": " joined",
+    "title_form": "FÖRÄNDRA DITT LIV IDAG!",
+    "first_name": "Förnamn",
+    "last_name": "Efternamn",
+    "email": "E-postadres",
+    "password": "Lösenord",
+    "phone_number": "Telefonnummer",
+    "pass2": "Confirm Password",
+    "button": "Få tillgång nu",
+    "agreement_first": "Jag godkänner att min e-postadress sparas i syfte att motta information och kommersiella erbjudanden angående programvara och plattformer för handel.",
+    "agreement_second": [
+      "Jag godkänner Användarvillkoren och Sekretesspolicyn",
+      "Användarvillkoren",
+      "Sekretesspolicyn"
+    ],
+    "button_last": "REGISTER NOW",
+    "passtest": [
+      "Lösenordet måste vara 8-12 tecken långt.",
+      "Det får inte innehålla specialtecken.",
+      "Det måste innehålla minst en bokstav.",
+      "Det måste innehålla minst en stor bokstav.",
+      "Det måste innehålla minst en siffra."
+    ],
+    "more_title": [
+      "Du kan när som helst ändra ditt beslut genom att klicka på länken för"
+    ],
+    "more_decription": "att avsluta prenumeration i sidfoten i något av våra mejl. Vi kommer behandla din information med respekt. Genom att klicka ovan godkänner du att vi kan använda din information i enlighet med dessa bestämmelser.",
+
+    "video_placeholder": "Tryck för att kolla och få reda på hemligheten!",
+
+    "join_title": [
+      "Anslut dig till Bitcoin-",
+      "revolutionen idag"
+    ],
+    "btc_media": "Bitcoin i pressen:",
+    "join_description": "Bitcoin has created a new era for financial technology and has given people the opportunity to trade quickly and easily. As a result, a lot of people have made real profits. Now, you can get started trading today.",
+
+
+    "trade_title": "Gå med i Bitcoin Compass idag och bli en miljonär i morgon!",
+    "trade_steps": [
+      {
+        "title": "Steg ",
+        "name": "Registrera idag",
+        "descr": "Registreringen tar bara några minuter, och när du är klar är du medlem i Bitcoin Compass tillsammans med våra miljonärer."
+      },
+      {
+        "title": "Steg ",
+        "name": "Överför pengar till ditt konto",
+        "descr": "Gör din första insättning på minst 2500kr och se sen hur mycket du kan tjäna. Du kommer sen att kunna göra så många byten du vill. Det finns även gratis guider som hjälper dig."
+      },
+      {
+        "title": "Steg ",
+        "name": "Börja handla",
+        "descr": "Så enkelt är det. Vår plattform tillåter dig att snabbt och enkelt starta upp och upptäcka fördelarna med att byta kryptovalutor."
+      }
+    ],
+    "chart_info": "Forbes kallade Bitcoin den bästa investeringen år 2013. År 2014 kallade Bloomberg Bitcoin för en av deras sämsta investeringar under året, men året därpå toppade Bitcoin Bloombergs valutatabeller, och värdet på Bitcoin stiger fortfarande.",
+
+    "famous_title": "Kända namn inom handeln",
+    "famous_description": "Det finns många stora namn inom handeln. Det här säger de mest kända inom handeln.",
+    "famous_body": [
+      {
+        "img": "elder",
+        "name": "Alexander Elder",
+        "text": "Du har din frihet Du kan bo och jobba var som helst i världen. Du är oberoende av rutiner och rapporterar inte till någon."
+      },
+      {
+        "img": "seykota",
+        "name": "Ed Seykota",
+        "text": "Vinst eller förlust, alla får vad de vill ha från marknaden. Vissa personer tenderar att förlora, så de vinner genom att förlora pengar."
+      },
+      {
+        "img": "oneil",
+        "name": "William O’Neil",
+        "text": "Det som verkar för högt och riskabelt för de flesta går ofta högre och det som står lågt och billigt går ofta lägre."
+      },
+      {
+        "img": "buffet",
+        "name": "Warren Buffett",
+        "text": "Du behöver inte vara en raketforskare. Investering är inte ett spel där killen med 160 i IQ slår killen med 130 i IQ."
+      }
+    ],
+
+    "benefits_list": [
+      {
+        "img": "performance",
+        "title": "Exakt utförande",
+        "descr": "Ingen annan handelsplattform är mer exakt än Bitcoin Compass. Därför kan våra kunder mångdubbla sina vinster snabbt och enkelt."
+      },
+      {
+        "img": "technology",
+        "title": "Teknologi i toppklass",
+        "descr": "Vår plattform använder sig av den allra senaste teknologin, så att du inte behöver tänka på annat än att handla. Vår plattform har hög prestanda och är otroligt enkel att använda."
+      },
+      {
+        "img": "trading",
+        "title": "Pålitlig handel",
+        "descr": "Bitcoin Compass har tilldelats många utmärkelser för pålitlig handel, bland annat The European Traders Guild Award samt The Worlds Traders Conference Cup."
+      }
+    ],
+
+    "table_title": "Onlinehandlare",
+    "table_head": [
+      "Användare",
+      "Tidpunkt",
+      "Registrerad"
+    ],
+    "table_inner": [
+      {
+        "name": "J******",
+        "img": "register"
+      },
+      {
+        "name": "K******",
+        "img": "register"
+      },
+      {
+        "name": "S******",
+        "img": "register"
+      },
+      {
+        "name": "M******",
+        "img": "register"
+      },
+      {
+        "name": "A******",
+        "img": "register"
+      },
+      {
+        "name": "L******",
+        "img": "register"
+      },
+      {
+        "name": "N******",
+        "img": "register"
+      },
+      {
+        "name": "B******",
+        "img": "register"
+      },
+      {
+        "name": "O******",
+        "img": "register"
+      },
+      {
+        "name": "P******",
+        "img": "register"
+      },
+      {
+        "name": "A******",
+        "img": "register"
+      },
+      {
+        "name": "G******",
+        "img": "register"
+      }
+    ],
+
+    "faq_title": "Frågor och svar",
+    "faq_question": [
+      {
+        "question": "Hur mycket kan jag tjäna?",
+        "answer": "Vinster baseras alltid på procenten av summan du investerar. Därför så bör du alltid värdera varje affär individuellt."
+      },
+      {
+        "question": "Behöver jag ha någon erfarenhet inom handel?",
+        "answer": "Nej! Bitcoin Compass har utformats för nybörjare. Vår plattform är den enklaste i världen om du vill börja handla."
+      },
+      {
+        "question": "Hur mycket kostar det?",
+        "answer": "Vår plattform kostar ingenting. Alla pengar du investerar är dina egna att handal med, och du kan göra uttag när som helst."
+      },
+      {
+        "question": "Hur många medlemar finns det?",
+        "answer": "Vi har just nu över 400 000 registrerade medlemmar världen över, med ett sammanlagt världe på över 45 triljoner euro!"
+      },
+      {
+        "question": "Vad händer om priset på Bitcoin sjunker?",
+        "answer": "Det är ändå möjligt att göra vinstgivande affärer. Detta på grund av att du kan göra långa och korta affärer, vilket gör att du kan dra full fördel av prisförändringarna."
+      }
+    ],
+
+    "second_form": "Börja ditt nya liv nu",
+    "disclaimer": [
+      "VIKTIGT: ",
+      "Intäkts- och juridisk friskrivningsklausul",
+      "Intäkter och inkomster skildrade av , (samlat benämnt \"den här webbplatsen\") används bara som ambitiösa exempel på din intäktspotential. De framgångsberättelser och andra exempel som skildras är exceptionella resultat och därmed inte menade som någon garanti för att du eller någon annan kommer att uppnå samma resultat. Individuella resultat varierar och beror uteslutande på din användning av .",
+      "Den här webbplatsen är inte ansvarig för dina handlingar. Du bär ensam ansvaret för dina handlingar och beslut när du använder produkter och tjänster och du bör därför alltid vara försiktig och agera med tillbörlig aktsamhet. Du godkänner att den här webbplatsen inte på något sätt kan hållas ansvarig gentemot dig för resultatet av användandet av våra produkter och tjänster. Se våra användarvillkor för att läsa vår fullständiga ansvarsfriskrivning och andra restriktioner.",
+      "Den här webbplatsen kan få ersättning för de produkter och tjänster som de rekommenderar till dig. Om du inte vill att den här webbplatsen ska ersättas för en rekommendation råder vi dig att söka på nätet efter en liknande produkt via en länk som saknar sådan anknytning.",
+      "*Vittnesberättelser:",
+      "Alla personer, all information och alla händelser skildrade på den här webbplatsen är uteslutande fiktiva. Eventuella likheter med verkliga händelser eller personer, levande eller döda, är ren tillfällighet."
+    ],
+    "bottom_info": [
+      "Vi använder cookies för att förstå hur du använder vår webbplats och för att förbättra din upplevelse. Detta innefattar att personanpassa innehåll och reklam. Genom att fortsätta använda vår webbplats, godkänner du vår användning av cookies, vår reviderade integritetspolicy och våra användarvillkor. Den här webbplatsen är en annonsartikel ",
+      "Mer information"
+    ]
+  },
+  "fi": {
+    "header_title": "– Mainosreportaasi  –",
+    "header_subtitle": "Meille rekisteröityy tällä hetkellä ennen näkemättömän paljon uusia käyttäjiä.",
+    "flag": "fiFlag",
+    "title": "Ihmiset rikastuvat Bitcoinilla",
+    "subtitle": "Sinusta voi tulla seuraava miljonääri!",
+    "customers_name": [
+      "Amelia",
+      "Elsie",
+      "Fred",
+      "Henry",
+      "Ivy",
+      "Evelin"
+    ],
+    "status": " liittyi",
+    "title_form": "MUUTA ELÄMÄSI TÄNÄÄN!",
+    "first_name": "Etunimi",
+    "last_name": "Sukunimi",
+    "email": "Email",
+    "password": "Salasana",
+    "phone_number": "Puhelinnumero",
+    "pass2": "Confirm Password",
+    "button": "Hanki käyttöoikeus nyt",
+    "agreement_first": "Hyväksyn sähköpostiosoitteeni säilömisen, jotta voin vastaanottaa tietoja ja markkinointitarjouksia kaupankäyntiohjelmistoista ja -alustoista.",
+    "agreement_second": [
+      "Hyväksyn säännöt ja ehdot ja tietosuojakäytännön ",
+      "säännöt ja ehdot ",
+      "tietosuojakäytännön"
+    ],
+    "button_last": "REGISTER NOW",
+    "passtest": [
+      "Salasanan tulee olla 8-12 merkkiä pitkä.",
+      "Ei saa sisältää erikoismerkkejä.",
+      "Täytyy sisältää vähintään 1 kirjain.",
+      "Täytyy sisältää vähintään 1 iso kirjain.",
+      "Täytyy sisältää vähintään 1 numero."
+    ],
+    "more_title": [
+      "Voit muuttaa asetusta milloin tahansa klikkaamalla sinulle lähettämämme..."
+    ],
+    "more_decription": "sähköpostin alatunnisteesta löytyvää linkkiä, josta tilauksen voi perua. Tietojasi käsitellään luottamuksellisesti. Klikkaamalla yltä hyväksyt, että voimme käsitellä tietojasi seuraavien ehtojen mukaisesti.",
+
+    "video_placeholder": "Katso napauttamalla ja saat tietää salaisuuden!",
+
+    "join_title": [
+      "Liity bitcoin-vallankumoukseen",
+      "tänään"
+    ],
+    "btc_media": "Bitcoin mediassa:",
+    "join_description": "Bitcoin on luonut uuden rahoitusteknologian aikakauden ja antanut ihmisille mahdollisuuden käydä kauppaa helposti ja nopeasti. Sen tuloksena monet ihmiset ovat saaneet todellisia tuottoja. Nyt voit aloittaa kaupankäynnin tänään.",
+
+
+    "trade_title": "Liity Bitcoin Compassiin tänään, niin sinusta voi tulla miljonääri huomenna!",
+    "trade_steps": [
+      {
+        "title": "Vaihe ",
+        "name": "Rekisteröidy tänään",
+        "descr": "Rekisteröityminen kestää vain muutaman minuutin, ja tehtyäsi sen sinusta tulee Bitcoin Compassin jäsen ja voit liittyä miljonääriemme joukkoon."
+      },
+      {
+        "title": "Vaihe ",
+        "name": "Lisää varoja tilillesi",
+        "descr": "Tee ensimmäinen vähintään 250 € sijoituksesi ja katso, paljonko pystyt ansaitsemaan. Voit sitten tehdä niin paljon kauppoja kuin haluat. Apunasi on myös ilmaisia oppaita."
+      },
+      {
+        "title": "Vaihe ",
+        "name": "Aloita kaupankäynti",
+        "descr": "Se on niin yksinkertaista. Alustamme avulla voit aloittaa nopeasti ja helposti, ja löytää uusia kryptovaluuttojen kauppaamisen hyötyjä."
+      }
+    ],
+    "chart_info": "Forbesin mukaan Bitcoin oli vuoden 2013 paras sijoitus. Vuonna 2014 Bloomberg nimesi Bitcoinin yhdeksi vuoden huonoimmista sijoituksista, mutta vuonna 2015 Bitcoin löytyi Bloombergin valuuttataulukoiden huipulta, ja sen arvo kasvaa edelleen.",
+
+    "famous_title": "Kuuluisia kaupankäynnin nimiä",
+    "famous_description": "Kaupankäyntiin liittyy paljon suuria nimiä. Näin kertovat jotkut kuuluisimmista kaupankävijöistämme.",
+    "famous_body": [
+      {
+        "img": "elder",
+        "name": "Alexander Elder",
+        "text": "Saat olla vapaa. Voit asua ja käydä kauppaa missä päin maailmaa tahansa. Olet vapaa rutiineista etkä joudu vastaamaan kenellekään."
+      },
+      {
+        "img": "seykota",
+        "name": "Ed Seykota",
+        "text": "Voitto tai häviö, kaikki saavat markkinoilta haluamansa. Jotkut ihmiset tuntuvat pitävän häviämisestä, joten he voittavat häviämällä rahaa."
+      },
+      {
+        "img": "oneil",
+        "name": "William O’Neil",
+        "text": "Se, mikä tuntuu enemmistön mielestä liian korkealta ja riskialttiilta, nousee yleensä korkeammalle, kun taas liian alhaiselta ja halvalta tuntuva yleensä laskee."
+      },
+      {
+        "img": "buffet",
+        "name": "Warren Buffett",
+        "text": "Tässä ei vaadita avaruustiedettä. Sijoittaminen ei ole peliä, jossa kaveri 160 ÄO:lla voittaa sen, jonka ÄO on 130."
+      }
+    ],
+
+    "benefits_list": [
+      {
+        "img": "performance",
+        "title": "Erinomainen suorituskyky",
+        "descr": "Mikään muu kaupankäyntialusta ei ole yhtä suorituskykyinen kuin Bitcoin Compass. Siksi asiakkaamme pystyvät moninkertaistamaan tuottonsa nopeasti ja helposti."
+      },
+      {
+        "img": "technology",
+        "title": "Huipputeknologia",
+        "descr": "Alustallamme hyödynnetään alan uusinta teknologiaa, jotta sinun ei tarvitse vaivata sillä päätäsi. Alustan suorituskyky on huippuluokkaa, ja siksi se on uskomattoman helppokäyttöinen."
+      },
+      {
+        "img": "trading",
+        "title": "Luotettavaa valuuttakauppaa",
+        "descr": "Bitcoin Compass on saanut monia arvostettuja valuuttakauppapalkintoja, kuten The European Traders Guild Award ja The Worlds Traders Conference Cup -palkinnot."
+      }
+    ],
+
+    "table_title": "Verkkokauppiaat",
+    "table_head": [
+      "Käyttäjä",
+      "Aika",
+      "Rekisteröity"
+    ],
+    "table_inner": [
+      {
+        "name": "J******",
+        "img": "register"
+      },
+      {
+        "name": "K******",
+        "img": "register"
+      },
+      {
+        "name": "S******",
+        "img": "register"
+      },
+      {
+        "name": "M******",
+        "img": "register"
+      },
+      {
+        "name": "A******",
+        "img": "register"
+      },
+      {
+        "name": "L******",
+        "img": "register"
+      },
+      {
+        "name": "N******",
+        "img": "register"
+      },
+      {
+        "name": "B******",
+        "img": "register"
+      },
+      {
+        "name": "O******",
+        "img": "register"
+      },
+      {
+        "name": "P******",
+        "img": "register"
+      },
+      {
+        "name": "A******",
+        "img": "register"
+      },
+      {
+        "name": "G******",
+        "img": "register"
+      }
+    ],
+
+    "faq_title": "UKK",
+    "faq_question": [
+      {
+        "question": "Miten paljon voin ansaita?",
+        "answer": "Tuotot perustuvat aina sijoituksiesi prosenttimääriin. Siksi jokainen kauppa kannattaa arvioida erikseen."
+      },
+      {
+        "question": "Pitääkö minulla olla kokemusta valuuttakaupasta?",
+        "answer": "Ei! Bitcoin Compass on suunniteltu aloittelijoille. Alustamme on maailman helpoin paikka aloittaa valuuttakauppa."
+      },
+      {
+        "question": "Kuinka paljon se maksaa?",
+        "answer": "Alustamme ei maksa sinulle mitään. Kaikki sijoittamasi rahat ovat sinun, ja voit nostaa tuottosi milloin tahansa."
+      },
+      {
+        "question": "Kuinka monta jäsentä teillä on?",
+        "answer": "Tällä hetkellä meillä on yli 400 000 rekisteröitynyttä jäsentä ympäri maailman, ja heidän yhteisarvonsa on yli 5 miljardia euroa!"
+      },
+      {
+        "question": "Mitä jos Bitcoinin arvo romahtaa?",
+        "answer": "Tuottavia kauppoja voi silti tehdä. Tämä johtuu siitä, että voit tehdä pitkiä ja lyhyitä kauppoja, joten voit hyödyntää hintojen liikkeitä täysin."
+      }
+    ],
+
+    "second_form": "Aloita uusi elämäsi NYT",
+    "disclaimer": [
+      "TÄRKEÄÄ: ",
+      "Ansiot ja vastuuvapauslausekkeet",
+      "Ansioiden ja , (jäljempänä ”tämä verkkosivusto”) esittämiä kuvauksia ansioista ja tuloista käytetään ainoastaan rohkaisevina esimerkkeinä ansiomahdollisuuksistasi. Kokemuksissa kerrottu sekä muiden esimerkkien menestys edustaa poikkeuksellista tulosta, eikä niitä näin ollen ole tarkoitettu takeeksi siitä, että sinä tai jotkut muut voisitte saavuttaa samanlaisia tuloksia. Yksittäiset tulokset vaihtelevat ja riippuvat täysin siitä, miten käytät kohdetta .",
+      "Tämä verkkosivusto ei ole vastuussa sinun teoistasi. Olet yksin vastuussa teoistasi ja päätöksistäsi käyttäessäsi tuotteita ja palveluita, ja siksi sinun tulisi aina toimia varovaisesti ja asianmukaista huolellisuutta noudattaen. Suostut siihen, ettei tämä verkkosivusto ole sinulle millään tavoin vastuussa tuotteidemme ja palveluidemme käytön tuloksista. Näet käyttöehdoistamme täyden vastuuvapauslausekkeen ja muita rajoituksia.",
+      "Tämä verkkosivusto saattaa saada korvauksen sinulle suosittelemistaan tuotteista ja palveluista. Mikäli et halua tämän verkkosivuston saavan korvausta suosituksistaan, neuvomme sinua etsimään verkosta vastaavaa tuotetta meihin liittymättömän linkin välityksellä.",
+      "*Kokemukset:",
+      "Kaikki tällä verkkosivustolla kuvatut hahmot, tiedot ja tapahtumat ovat täysin kuvitteellisia. Kaikki yhtäläisyydet todellisiin tapahtumiin tai henkilöihin, eläviin tai kuolleisiin, ovat pelkkää sattumaa."
+    ],
+    "bottom_info": [
+      "Käytämme evästeitä ymmärtääksemme miten käytät sivustoamme ja parantaaksemme kokemustasi. Tähän kuuluu sisällön ja mainonnan personointi. Jatkamalla sivuston käyttöä hyväksyt evästeet, tarkistetun tietosuojakäytännön ja käyttöehdot. Tämä sivusto on advertoriaali. ",
+      "Lisää tietoa"
     ]
   }
 }

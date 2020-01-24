@@ -148,7 +148,7 @@ export const en = {
     ],
     topreg1: 'Start Changing',
     topreg2: 'Your Life TODAY',
-    fname: 'First name',
+    fname: 'First nameeee',
     lname: 'Last name',
     email: 'Email',
     pass: 'Password',

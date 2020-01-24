@@ -77,7 +77,7 @@ export default function MaterialInputs(props) {
                                     key={input.name}
                                     className={input.groupClass}>
 
-                                    <InputLabel style={{backgroundColor: '#fff'}} htmlFor={input.name}>{input.name.restr()}</InputLabel>
+                                    <InputLabel style={{backgroundColor: '#fff'}} htmlFor={input.name}>{props.languageManager[input.name]}</InputLabel>
 
                                     <OutlinedInput
                                         className={input.className}
@@ -99,7 +99,7 @@ export default function MaterialInputs(props) {
 
                                     <MuiPhoneNumber
                                         className={input.className}
-                                        label="Phone"
+                                        label={props.languageManager[input.name]}
                                         aria-describedby="feebback"
                                         variant='outlined'
                                         id={input.name}
@@ -120,7 +120,7 @@ export default function MaterialInputs(props) {
                                         variant='outlined' 
                                         className={input.groupClass}>
 
-                                            <InputLabel htmlFor={input.name}>{input.name.restr()}</InputLabel>
+                                            <InputLabel htmlFor={input.name}>{props.languageManager[input.name]}</InputLabel>
 
                                             <OutlinedInput
                                                 className={input.className}

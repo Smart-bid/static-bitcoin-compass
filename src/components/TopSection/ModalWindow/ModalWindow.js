@@ -1,5 +1,9 @@
 import React, {Component} from 'react'
 import ua from "../ua.svg";
+import enFlag from "./images/gb.svg";
+import noFlag from "./images/no.svg";
+import svFlag from "./images/sv.svg";
+import fiFlag from "./images/fi.svg";
 
 
 export default class ModalWindow extends Component {
@@ -8,7 +12,13 @@ export default class ModalWindow extends Component {
 
         this.state = {
             show_customer_name: false,
-            nameArr: ""
+            nameArr: "",
+            flags: {
+                enFlag,
+                noFlag,
+                svFlag,
+                fiFlag,
+            }
         }
     }
 
@@ -37,7 +47,7 @@ export default class ModalWindow extends Component {
         return (
             <div className="col-lg-6 col-md-6 hidden-block">
                 <div id="modal-window" className={`show ${this.state.show_customer_name}`}>
-                    <img src={ua} alt=""/>
+                    <img src={this.state.flags[languageManager.flag]} alt=""/>
                     <div className="name">
                         <p>{this.state.nameArr}</p>
                     </div>

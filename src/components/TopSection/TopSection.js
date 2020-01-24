@@ -75,18 +75,24 @@ export default class TopSection extends Component {
                         {
                             name: 'agree_2',
                             type: 'checkbox',
-                            text: languageManager.agreement_second,
+                            text: languageManager.agreement_second[0],
                             //errorClass: 'inputError',
-                            links: [{text: 'Terms & Conditions', to: '/terms'}, {
-                                text: 'Privacy Policy',
-                                to: '/privacy'
-                            }],
+                            links: [
+                                {
+                                    text: languageManager.agreement_second[1],
+                                    to: '/terms'
+                                },
+                                {
+                                    text: languageManager.agreement_second[2],
+                                    to: '/privacy'
+                                }
+                            ],
                             groupClass: 'checkbox_text'
                         }
                     ],
                     button: {
                         className: 'button_forward',
-                        text: 'Get Access Now'
+                        text: languageManager.button
                     },
                     supportText: {
                         className: 'support_text',
