@@ -97,7 +97,7 @@ export default class TopSection extends Component {
                 }
             ];
         return (
-            <div className='TopSection'>
+            <section className='TopSection'>
                 <Header languageManager={this.props.languageManager} handleScroll={this.handleScroll.bind(this)}/>
                 <div className="advertioral">
                     <p>{languageManager.header_title}</p>
@@ -147,7 +147,7 @@ export default class TopSection extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         )
     }
 }

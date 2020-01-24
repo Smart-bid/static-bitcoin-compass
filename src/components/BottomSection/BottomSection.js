@@ -6,7 +6,7 @@ export default class BottomSection extends Component {
         let languageManager = this.props.languageManager();
 
         return (
-            <div className='BottomSection'>
+            <section className='BottomSection'>
                 <div className="footer">
                     <div className="container">
                         <div className="row">
@@ -34,7 +34,7 @@ export default class BottomSection extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         )
     }
 }

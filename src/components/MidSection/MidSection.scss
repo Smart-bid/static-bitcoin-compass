@@ -15,6 +15,12 @@
             color: $green;
             margin-bottom: 30px;
             text-align: center;
+            @media(max-width: 768px) {
+                font-size: 32px;
+            }
+            @media(max-width: 479px) {
+                font-size: 32px * 0.75;
+            }
         }
         .regform {
             box-shadow: 0 5px 15px rgba(0,0,0,0.15);

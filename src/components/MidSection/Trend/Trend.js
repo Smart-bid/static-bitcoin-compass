@@ -8,7 +8,6 @@ const Trend = (props) => {
         <div className="Trend">
             <div className="container">
                 <div className="row">
-                    <div className="col-12">
                         <h2 className="trade-title">{languageManager.trade_title}</h2>
 
                         <div className="steps-wrapper">
@@ -78,7 +77,7 @@ const Trend = (props) => {
                                 <img src={forbesgLogo} alt=""/>
                             </div>
                         </div>
-                    </div>
+
                 </div>
             </div>
 

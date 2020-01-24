@@ -1,6 +1,10 @@
 .JoinBtcRevolution {
     padding-top: 45px;
     border-bottom: 1px solid #cecece;
+    @media(max-width: 768px) {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
     h2 {
         font-size: 56px;
         font-weight: 400;
@@ -10,12 +14,29 @@
         @media (max-width: 1200px) {
             font-size: 36px;
         }
+        @media(max-width: 768px) {
+            font-size: 32px;
+        }
         @media (max-width: 420px) {
             font-size: 25px;
+        }
+        br {
+            @media(max-width: 768px) {
+                display: none;
+            }
+        }
+    }
+    img {
+        @media(max-width: 768px) {
+            max-height: 400px;
+            margin-bottom: 30px;
         }
     }
     .bitcoin-media {
         margin-bottom: 45px;
+        @media(max-width: 768px) {
+            margin-bottom: 0;
+        }
         > span {
             display: block;
             font-size: 14px;
@@ -32,8 +53,8 @@
             line-height: 1.5;
             color: #333;
             font-weight: 400;
-            @media (max-width: 420px) {
-                font-size: 17px;
+            @media(max-width: 768px) {
+                font-size: 15px;
             }
         }
     }
