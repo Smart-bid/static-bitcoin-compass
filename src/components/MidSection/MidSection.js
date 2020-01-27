@@ -102,7 +102,7 @@ export default class MidSection extends Component {
             <div className="MidSection">
                 <Partners />
 
-                <JoinBtcRevolution languageManager={this.props.languageManager}/>
+                <JoinBtcRevolution {...this.props}/>
 
                 <Trend languageManager={this.props.languageManager}/>
 

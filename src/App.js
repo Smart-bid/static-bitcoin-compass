@@ -23,6 +23,13 @@ export default class App extends Component {
         this.pageHandler = this.pageHandler.bind(this);
     }
 
+    componentDidMount() {
+        if(this.props.language === 'ar') {
+            document.body.classList.add('direction-rtl')
+            document.body.setAttribute('dir','rtl')
+        }
+    }
+
     handleStep = (step) => {
         this.setState({step})
     };
@@ -85,9 +92,9 @@ export default class App extends Component {
                             <div className="privacy-inner">
                                 <span>{languageManager.bottom_info[0]}<a onClick={() => this.pageHandler('privacy')}>{languageManager.bottom_info[1]}</a></span>
                                 <span className="buttons">
-                                            <button onClick={this.hidePrivacyBlock} className="btn-ok">ok</button>
-                                            <a onClick={() => this.pageHandler('spam')}>Report Ad / Spam</a>
-                                        </span>
+                                    <button onClick={this.hidePrivacyBlock} className="btn-ok">{languageManager.bottom_info[2]}</button>
+                                    <a onClick={() => this.pageHandler('spam')}>{languageManager.bottom_info[3]}</a>
+                                </span>
                             </div>
                         </div>
                     </div>

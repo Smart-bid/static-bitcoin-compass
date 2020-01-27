@@ -4,6 +4,13 @@ import enFlag from "./images/gb.svg";
 import noFlag from "./images/no.svg";
 import svFlag from "./images/sv.svg";
 import fiFlag from "./images/fi.svg";
+import nlFlag from "./images/nl.svg";
+import esFlag from "./images/es.svg";
+import itFlag from "./images/it.svg";
+import plFlag from "./images/pl.svg";
+import deFlag from "./images/de.svg";
+import ruFlag from "./images/ru.svg";
+import arFlag from "./images/ar.svg";
 
 
 export default class ModalWindow extends Component {
@@ -18,6 +25,13 @@ export default class ModalWindow extends Component {
                 noFlag,
                 svFlag,
                 fiFlag,
+                nlFlag,
+                esFlag,
+                itFlag,
+                plFlag,
+                deFlag,
+                ruFlag,
+                arFlag
             }
         }
     }

@@ -104,3 +104,36 @@ p {
         }
     }
 }
+
+body {
+    &.direction-rtl {
+        .green-section {
+           .famousNames {
+                .famous-description {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+               .famous-people {
+                    flex-direction: row-reverse;
+                   .single-person-info {
+                       text-align: right;
+                   }
+               }
+           }
+        }
+        //JoinBtcRevolution
+        .JoinBtcRevolution {
+            text-align: right;
+        }
+        //Trend
+        .Trend {
+            .steps-wrapper {
+                .row {
+                    .step-item {
+                        text-align: right;
+                    }
+                }
+            }
+        }
+    }
+}

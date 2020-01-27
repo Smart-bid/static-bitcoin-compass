@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import joinBg from "../images/hero-btc.jpg";
+import arabicjoinBg from "../images/hero-btc_ar.jpg";
+
 import btcMedia from "../images/hero-btc-logo.png";
+
 
 export default class JoinBtcRevolution extends Component {
     render() {
@@ -10,7 +13,7 @@ export default class JoinBtcRevolution extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 col-md-12">
-                            <img src={joinBg} alt="" draggable={false}/>
+                            <img src={this.props.language !== 'ar' ? joinBg : arabicjoinBg} alt="" draggable={false}/>
                         </div>
                         <div className="col-lg-6 col-md-12">
                             <h2>
