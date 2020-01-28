@@ -455,7 +455,7 @@
     ],
     "button_last": "REGISTER NOW",
     "passtest": [
-      "Lösenordet måste vara 8-12 tecken långt.",
+      "Lösenordet måste vara 8 tecken långt.",
       "Det får inte innehålla specialtecken.",
       "Det måste innehålla minst en bokstav.",
       "Det måste innehålla minst en stor bokstav.",
@@ -668,7 +668,7 @@
     ],
     "button_last": "REGISTER NOW",
     "passtest": [
-      "Salasanan tulee olla 8-12 merkkiä pitkä.",
+      "Salasanan tulee olla 8 merkkiä pitkä.",
       "Ei saa sisältää erikoismerkkejä.",
       "Täytyy sisältää vähintään 1 kirjain.",
       "Täytyy sisältää vähintään 1 iso kirjain.",
@@ -881,7 +881,7 @@
     ],
     "button_last": "REGISTER NOW",
     "passtest": [
-      "Het wachtwoord moet 8-12 tekens lang zijn.",
+      "Het wachtwoord moet 8 tekens lang zijn.",
       "Mag geen speciale tekens bevatten.",
       "Moet op zijn minst 1 letter bevatten.",
       "Moet op zijn minst 1 hoofdletter bevatten.",
@@ -1093,7 +1093,7 @@
     ],
     "button_last": "REGISTER NOW",
     "passtest": [
-      "La contraseña tiene que contener entre 8 y 12 caracteres.",
+      "La contraseña tiene que contener entre 8 caracteres.",
       "No puede contener caracteres especiales.",
       "Tiene que contener al menos una letra.",
       "Tiene que contener al menos una letra mayúscula.",
@@ -1306,7 +1306,7 @@
     ],
     "button_last": "REGISTER NOW",
     "passtest": [
-      "La password contenere tra i 8 e i 12 caratteri.",
+      "La password contenere tra i 8 caratteri.",
       "Non deve contenere caratteri speciali.",
       "Deve contenere almeno 1 lettera.",
       "Deve contenere almeno 1 lettera maiuscola.",
@@ -1943,7 +1943,7 @@
     ],
     "button_last": "REGISTER NOW",
     "passtest": [
-      "Пароль должен быть длиной от 8 до 12 символов.",
+      "Пароль должен быть длиной 8 символов.",
       "Не должен содержать специальные символы.",
       "Должен содержать не менее 1 буквы.",
       "Должен содержать как минимум 1 заглавную букву.",
@@ -2297,31 +2297,31 @@
       }
     ],
 
-    "faq_title": "FAQ",
+    "faq_title": "الأسئلة المتكررة",
     "faq_question": [
       {
-        "question": "How much can I earn?",
-        "answer": "Profits are always based on percentages of the amount you invest. Therefore, you should always eveluate each trade individually."
+        "question": "كم يمكنني أن أكسب؟",
+        "answer": "تعتمد الأرباح دائمًا على النسب المئوية للمبلغ الذي تستثمره. لذلك ، يجب عليك دائمًا تقييم كل صفقة على حدة."
       },
       {
-        "question": "Do I need any trading experience?",
-        "answer": "No! Bitcoin Compass has been designed with novices in mind. Our platform is the easiest place in the world to start trading."
+        "question": "هل أنا بحاجة لأي خبرة في التداول؟",
+        "answer": "لا! لقد تم تصميم Bitcoin Compass مع وضع المبتدئين في الاعتبار. لذا فمنصتنا هي أسهل مكان في العالم لبدء التداول."
       },
       {
-        "question": "How much does it cost?",
-        "answer": "Our platform won't cost you anything. All of the money you invest is yours to trade with and you can withdraw it at any time."
+        "question": "كم يكلف الأمر؟",
+        "answer": "لن تكلفك منصتنا أي شيء. جميع الأموال التي تستثمرها هي أموالك التي يمكنك تداولها وسحبها في أي وقت."
       },
       {
-        "question": "How many members are there?",
-        "answer": "We currently have over 400,000 registered members worldwide with a collective value of over $5 billion!"
+        "question": "كم عدد الأعضاء لديكم؟",
+        "answer": "لدينا حالياً أكثر من 400,000 عضو مسجل من جميع أنحاء العالم بقيمة مجمعة تزيد على 5 مليارات دولار!"
       },
       {
-        "question": "What if the price of Bitcoin Falls?",
-        "answer": "It's still possible to make profitable trades. That's because you are able to trade long and short, allowing you to take full advantage of price moves."
+        "question": "ماذا لو انخفض سعر البيتكوين؟",
+        "answer": "لا يزال هناك فرصة لإجراء صفقات مربحة لأنك قادر على التداول لفترة طويلة وقصيرة مما يتيح لك فرصة الاستفادة الكاملة من حركة الأسعار."
       }
     ],
 
-    "second_form": "Begin your new life Now",
+    "second_form": "ابدأ حياتك الجديدة الآن",
     "disclaimer": [
       "IMPORTANT: ",
       "Earnings and Legal Disclaimers",

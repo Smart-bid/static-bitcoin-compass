@@ -212,7 +212,8 @@ export default function MaterialInputs(props) {
                                         <div style={{display: 'flex', flexDirection: 'column'}}>
                                             <CheckboxText
                                                 text={input.text}
-                                                links={input.links}/>
+                                                links={input.links}
+                                            />
 
                                             <FormHelperText className={input.errorClass} style={{color: ((props.errors.hasOwnProperty(input.name) && props.errors[input.name].hasOwnProperty('messages')) ? '#f0482a' : ''), fontWeight: 700}} id="feebback">{((props.errors.hasOwnProperty(input.name) && props.errors[input.name].hasOwnProperty('messages')) && props.errors[input.name].messages[0])}</FormHelperText>
                                         </div>

@@ -3,7 +3,7 @@
     border-radius: 0 !important;
     border: none;
     .MuiFormControlLabel-root {
-        margin-left: 0 !important;
+        margin: 0 !important;
     }
 }
 .card-body {
@@ -198,6 +198,17 @@
         }
     }
 }
+
+//Agree items
+.MuiFormGroup-root {
+    &.checkbox_text {
+        align-items: center;
+        #feebback {
+            display: none;
+        }
+    }
+}
+
 
 //Res Error (Last step => "System could not register you")
 .resError {
