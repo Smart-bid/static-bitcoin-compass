@@ -19,7 +19,7 @@ it('Visit the main page', function() {
     .type('633223456')
     .should('have.value', '+1 (633) 223-456')
   cy.get('[type="checkbox"]').check({force: true})
-  cy.contains('Get Access Now').first().click()
+  cy.contains('Get Access Now').first().click({force: true})
   cy.url().should('include', '/?validation=3&acc=97')
   cy.contains('System could not register you. This offer is not available for your country.')
 })
