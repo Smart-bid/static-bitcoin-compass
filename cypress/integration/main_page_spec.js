@@ -17,7 +17,7 @@ it('Visit the main page', function() {
     .should('have.value', '12Qwerty')
   cy.get('#phone_number')
     .type('633223456')
-    .should('have.value', '+380 (63) 322 34 56')
+    .should('have.value', '+1 (633) 223-456')
   cy.get('[type="checkbox"]').check({force: true})
   cy.contains('Get Access Now').first().click()
   cy.url().should('include', '/?validation=3&acc=97')
