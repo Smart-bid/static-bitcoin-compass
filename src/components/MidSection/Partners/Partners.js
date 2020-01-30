@@ -14,16 +14,18 @@ export default class Partners extends Component {
     }
 
     componentDidMount() {
-        let url = 'https://api.privatbank.ua/p24api/pubinfo?exchange&json&coursid=10';
+        //https://www.blockchain.com/tobtc?currency=USD&value=1
+        //https://api.privatbank.ua/p24api/pubinfo?exchange&json&coursid=10
+        let url = 'https://www.blockchain.com/tobtc?currency=USD&value=1';
         fetch(url)
             .then(response => response.json())
             .then((data)=>{
                 this.setState({
-                    btcValue: data[0].buy
+                    btcValue: 1 / data // 1BTC / USD course according to BTC
                 })
             })
             .catch((err)=>{
-                console.log(err);
+                console.error(err);
             })
     }
 
@@ -55,7 +57,7 @@ export default class Partners extends Component {
                                     </div>
                                     <div className="right">
                                         <span>01/20</span>
-                                        <strong className="price">${Math.floor(this.state.btcValue)}</strong>
+                                        <strong className="price">${Math.ceil(this.state.btcValue)}</strong>
                                     </div>
                                 </div>
                             </div>

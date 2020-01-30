@@ -18,9 +18,6 @@ export default class App extends Component {
             page: 'main',
             hide: false
         };
-
-        this.handleStep = this.handleStep.bind(this);
-        this.pageHandler = this.pageHandler.bind(this);
     }
 
     componentDidMount() {
@@ -29,15 +26,6 @@ export default class App extends Component {
             document.body.setAttribute('dir','rtl')
         }
     }
-
-    handleStep = (step) => {
-        this.setState({step})
-    };
-
-    handleSubmit = () => {
-        this.props.handleSubmit()
-        .then(() => this.setState({ step: 1 }))
-    };
 
     pageHandler(page) {
         window.scrollTo(0, 0);
@@ -79,15 +67,13 @@ export default class App extends Component {
             return (
                 <Router>
                     <div className='App'>
-                        <TopSection {...this.props} handleStep={this.handleStep} step={this.state.step}/>
+
+                        <TopSection {...this.props}/>
 
                         <MidSection {...this.props}/>
 
-                        <BottomSection
-                            languageManager={this.props.languageManager}
-                            pageHandler={this.pageHandler}
-                            handleForward={this.handleForward}
-                        />
+                        <BottomSection {...this.props} />
+
                         <div className="privacy-policy" style={(document.cookie.indexOf('privacy') !== -1) ? display : {}}>
                             <div className="privacy-inner">
                                 <span>{languageManager.bottom_info[0]}<a onClick={() => this.pageHandler('privacy')}>{languageManager.bottom_info[1]}</a></span>
